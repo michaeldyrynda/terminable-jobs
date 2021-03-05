@@ -1,0 +1,39 @@
+{
+    "name": "dyrynda/terminable-jobs",
+    "description": "Allows you to make your Laravel queued jobs terminable.",
+    "type": "library",
+    "require": {
+        "php": "^7.3|^8.0",
+        "illuminate/queue": "^8.0"
+    },
+    "require-dev": {
+        "orchestra/testbench": "^6.0",
+        "phpunit/phpunit": "^9.3.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "Dyrynda\\TerminableJobs\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Michael Dyrynda",
+            "email": "michael@dyrynda.com.au"
+        }
+    ],
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "config": {
+        "extra": {
+            "optimize-autoloader": true,
+            "preferred-install": "dist",
+            "sort-packages": true
+        }
+    }
+}
